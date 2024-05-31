@@ -1,2 +1,5 @@
+import { MachoMoods } from "./moods.js";
 
-const container = document.querySelector('.container')
+const machoHTML = MachoMoods();
+const container = document.querySelector("#container");
+container.innerHTML = machoHTML;

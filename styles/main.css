@@ -1,0 +1,122 @@
+.rubik-80s-fade-regular {
+  font-family: "Rubik 80s Fade", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#title {
+  text-align: center;
+  font-family: "Rubik 80s Fade", system-ui;
+  font-size: 5em;
+  background-color: #e09f3e;
+  color: #335c67;
+  padding: 0;
+  border: none;
+  margin: 0 0 0 0;
+}
+
+body {
+  padding: 0;
+  border: none;
+  margin: 0 0 0 0;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 0 0 0;
+  background-color: #fff3b0;
+}
+
+.macho-card {
+  flex-basis: 25%;
+  margin: 3em;
+  /* adding new features */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  align-items: center;
+  background-color: #e09f3e;
+  color: #335c67;
+}
+
+.macho-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  background-color: #d62828;
+  /* color: #e09f3e; */
+  color: #ffffff;
+}
+
+.macho-img {
+  width: 100%;
+  border-radius: 1em;
+}
+
+.macho-info {
+  padding-left: 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* currently not being used */
+.info-text {
+  font-family: "Rubik 80s Fade", system-ui;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.macho-name {
+  font-family: "Rubik 80s Fade", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.macho-quotes {
+  font-family: "Rubik 80s Fade", system-ui;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.quote-container {
+  justify-self: end;
+}
+
+.macho-category {
+  font-family: "Rubik 80s Fade", system-ui;
+  font-weight: 100;
+  font-size: 1rem;
+  justify-self: start;
+}
+
+/* everything beneath here is for the delayed animation rendering classes */
+
+/* .hidden {
+  opacity: 0;
+  transition: 0.5s;
+  filter: blur(5px);
+  transform: translateX(-100%);
+}
+
+.hidden:nth-child(1) {
+  transition-delay: 300ms;
+}
+
+.hidden:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.hidden:nth-child(3) {
+  transition-delay: 0ms;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+} */
