@@ -15,6 +15,17 @@
   margin: 0 0 0 0;
 }
 
+#prompt {
+  text-align: center;
+  font-family: "Rubik 80s Fade", system-ui;
+  font-size: 2em;
+  background-color: #e09f3e;
+  color: #335c67;
+  padding: 0;
+  border: none;
+  margin: 0 0 0 0;
+}
+
 body {
   padding: 0;
   border: none;
